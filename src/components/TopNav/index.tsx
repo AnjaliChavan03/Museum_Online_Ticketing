@@ -124,7 +124,7 @@ export default function TopNav({ handleOpenSearch }: IProps) {
       <Header height="100%" px="md" className={classes.header}>
         <Group position="apart" sx={{ height: "100%" }}>
           <UnstyledButton component={Link} href="/">
-            <Title order={2}>Museum & Art</Title>
+            <Title order={2}>Dr. Bhau Daji Lad Museum</Title>
           </UnstyledButton>
 
           <Group
@@ -161,17 +161,13 @@ export default function TopNav({ handleOpenSearch }: IProps) {
           />
           <Stack spacing="sm" px="sm" mb="sm">
             {links}
-            {/* Removed Search and Donate buttons from mobile drawer */}
+            
           </Stack>
           <Divider
             my="sm"
             color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
           />
-          <Stack align="center" spacing="sm" px="sm" mb="sm">
-            <Button variant="subtle">Join & Give</Button>
-            <Button variant="subtle">Museum Shop</Button>
-            <LanguagePicker />
-          </Stack>
+        
         </ScrollArea>
       </Drawer>
     </Box>

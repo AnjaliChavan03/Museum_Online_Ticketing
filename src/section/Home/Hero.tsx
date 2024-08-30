@@ -85,13 +85,10 @@ export default function HeroSection() {
               mb="md"
               align="center"
             >
-              Welcome to the Lorem Ipsum Museum
+              Welcome to Dr. Bhau Daji Lad Museum
             </Text>
             <Text mb="md" size={smallerThan ? "md" : "lg"} align="center">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+                Dr. Bhau Daji Lad Museum is the oldest museum in Mumbai. Situated in the vicinity of Byculla Zoo, Byculla East, it was originally established in 1855 as a treasure house of the decorative and industrial arts, and was later renamed in honour of Bhau Daji Lad.
             </Text>
             <Flex
               justify="space-between"

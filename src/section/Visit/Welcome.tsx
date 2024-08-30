@@ -40,10 +40,9 @@ export default function WelcomeSection() {
           <Title {...titleProps}>Museum Hours</Title>
           <List>
             <Item>
-              Tuesday, Wednesday, Friday–Sunday: 11 a.m.–5 p.m.; last entry is
+              Monday, Tuesday, Wednesday, Thrusday, Friday–Sunday: 11 a.m.–5 p.m.; last entry is
               at 4 p.m.
             </Item>
-            <Item>Thursday: 12 p.m.–8 p.m.; last entry is at 7 p.m.</Item>
             <Item>
               Closed Monday and in observance of Juneteenth (6/19), Fourth of
               July, Anniversary of the Civil Liberties Act of 1988 (8/10),
@@ -57,7 +56,7 @@ export default function WelcomeSection() {
           <List>
             <Item>Timed, advance tickets are recommended.</Item>
             <Item>
-              Entrance times are on the hour, every hour, starting at 11 a.m.
+              Entrance times are on the hour, every hour, starting at 10 a.m.
               until 4 p.m. (PST).
             </Item>
             <Item>

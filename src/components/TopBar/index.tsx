@@ -108,7 +108,7 @@ const useStyles = createStyles((theme) => ({
 const announcementsData = [
   "Announcements from Museum",
   "Tickets available for 2023 auction event",
-  "Our COVID-19 Policy",
+  
 ];
 
 export default function TopBar() {
@@ -125,7 +125,7 @@ export default function TopBar() {
       <Container className={classes.inner} fluid>
         <Flex gap="sm" align="center" className={classes.leftSection}>
           <Text size={smallerThan ? "xs" : "sm"} weight={600}>
-            OPEN TODAY AT 12 P.M.
+            OPEN TODAY AT 10 A.M.
           </Text>
           <Divider orientation="vertical" className={classes.hiddenTablet} />
           <Carousel
@@ -157,8 +157,6 @@ export default function TopBar() {
           </Carousel>
         </Flex>
         <Group spacing="sm" className={classes.hiddenTablet}>
-          <Button {...buttonProps}>Join & Give</Button>
-          <Button {...buttonProps}>Museum Shop</Button>
           <LanguagePicker />
         </Group>
       </Container>
