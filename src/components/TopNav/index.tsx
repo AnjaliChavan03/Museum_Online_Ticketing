@@ -133,7 +133,7 @@ export default function TopNav({ handleOpenSearch }: IProps) {
             className={classes.hiddenTablet}
           >
             {links}
-            {/* Removed Search and Donate buttons from desktop view */}
+           
           </Group>
 
           <Burger

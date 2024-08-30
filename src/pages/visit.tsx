@@ -26,9 +26,6 @@ export default function Visit() {
         </AnimatedBox>
         <DonationSection />
         <AnimatedBox>
-          <CarouselEventsSection />
-        </AnimatedBox>
-        <AnimatedBox>
           <SupportSection />
         </AnimatedBox>
         <AnimatedBox>

@@ -107,7 +107,7 @@ const useStyles = createStyles((theme) => ({
 
 const announcementsData = [
   "Announcements from Museum",
-  "Tickets available for 2023 auction event",
+  "Tickets available for 2024 auction event",
   
 ];
 

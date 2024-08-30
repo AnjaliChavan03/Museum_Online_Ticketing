@@ -40,7 +40,7 @@ export default function InfoSection() {
           <Image
             src="https://4.bp.blogspot.com/-PDbn67fk_fk/WcgB0pJt19I/AAAAAAAAFLo/lvMTJ2xjp2ABd2nCwjMuCCVKFRBEGIrgwCLcBGAs/s1600/DSC_0655.jpg"
             alt=""
-            height={smallerThan ? 320 : 500}
+            height={smallerThan ? 320 : 510}
             fit="cover"
             radius="sm"
           />

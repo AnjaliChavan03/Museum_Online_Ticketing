@@ -40,7 +40,7 @@ export default function WelcomeSection() {
           <Title {...titleProps}>Museum Hours</Title>
           <List>
             <Item>
-              Monday, Tuesday, Wednesday, Thrusday, Friday–Sunday: 11 a.m.–5 p.m.; last entry is
+              Monday, Tuesday, Wednesday, Thrusday, Friday–Sunday: 10 a.m.–5 p.m.; last entry is
               at 4 p.m.
             </Item>
             <Item>
@@ -72,21 +72,13 @@ export default function WelcomeSection() {
               Please print your ticket or download it to your mobile device.
             </Item>
             <Item>
-              Masks are strongly recommended, except for children two and
-              younger.
+              Confirm the museum's operating hours and any special dates or times for closures.
             </Item>
             <Item>
-              Symptom Check: Visitors are required to self check themselves for
-              COVID-19 symptoms prior to entry. Visitors who are feeling sick or
-              are experiencing COVID-19 symptoms (such as cough, shortness of
-              breath or difficulty breathing, fever, chills, headache, or any
-              other symptoms), or who have had contact with anyone confirmed or
-              suspected of having COVID-19; are under isolation or quarantine
-              orders should stay home, regardless of vaccination status.
-              Visitors displaying COVID-19 symptoms will not be allowed to enter
-              the museum. See CDC Symptom Check guidelines here. Please contact
-              museumservices@email.org to reschedule your visit or ask for a
-              full refund.
+              Familiarize yourself with the museum layout, current exhibitions, and any special events or tours available.
+            </Item>
+            <Item>
+               Bring any necessary items such as a water bottle, comfortable shoes, and any required identification or membership cards.
             </Item>
           </List>
         </Paper>
@@ -95,17 +87,16 @@ export default function WelcomeSection() {
           <List>
             <Item>Scan your ticket at self scanning stations.</Item>
             <Item>
-              Masks are strongly recommended, except for children ages two and
-              younger.
+              If required, check in at the reception desk or kiosk to confirm your reservation or membership status.
             </Item>
             <Item>
-              Visitors who are feeling sick or are experiencing COVID-19
-              symptoms (such as cough, shortness of breath or difficulty
-              breathing, fever, chills, headache, or any other symptoms), or who
-              have had contact with anyone confirmed or suspected of having
-              COVID-19; are under isolation or quarantine orders should stay
-              home, regardless of vaccination status. Visitors displaying
-              COVID-19 symptoms will not be allowed to enter the museum.
+               Pick up a museum map or guide from the information desk to help navigate the exhibits.
+            </Item>
+            <Item>
+              Utilize available lockers or designated areas for storing personal belongings, if applicable.
+            </Item>
+            <Item>
+              Check for any specific guidelines related to the exhibitions you plan to visit, such as photography rules or restricted areas.
             </Item>
           </List>
         </Paper>
@@ -128,10 +119,7 @@ export default function WelcomeSection() {
         </Paper>
         <Text>
           Protecting the health and well-being of our staff and visitors is our
-          top priority. We strongly recommend all staff and visitors—regardless
-          of vaccination status—to wear a face mask in the museum and to
-          maintain a six-foot distance from anyone outside of their own
-          household at all times.
+          top priority.
         </Text>
         <Text>
           See below for admission pricing and directions. For more information

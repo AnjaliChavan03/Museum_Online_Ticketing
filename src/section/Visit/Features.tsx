@@ -16,21 +16,21 @@ const data = [
       "https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     title: "Galleries",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Explore the museum's diverse galleries, each showcasing unique collections that span various periods and cultures. From ancient artifacts to contemporary art, the galleries offer an immersive experience into the rich tapestry of human history and creativity. Spend time discovering the museum's permanent exhibits and rotating displays, each carefully curated to provide deeper insights and foster a greater appreciation of art and heritage.",
   },
   {
     image:
       "https://plus.unsplash.com/premium_photo-1661893375334-e2603ce341d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1194&q=80",
     title: "Family visits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A visit to the museum is a great way for families to enjoy quality time together while learning about history and art. The museum offers family-friendly exhibits and interactive activities designed to engage visitors of all ages. Special programs and workshops for children and families make it easy to explore the museum's collections in a fun and educational way, creating memorable experiences for everyone. The museum offers interactive activities for all ages.",
   },
   {
     image:
       "https://images.unsplash.com/photo-1601059252957-c3d6f1911313?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     title: "Exhibitions and Events",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Stay updated on the museum’s latest exhibitions and special events, which feature temporary displays, guest speakers, and cultural celebrations. These events offer unique opportunities to see new and rare items, participate in educational workshops, and experience the museum’s dynamic offerings. Check the museum’s schedule regularly to take advantage of these enriching activities and gain a deeper understanding of various art forms and historical themes.",
   },
 ];
 

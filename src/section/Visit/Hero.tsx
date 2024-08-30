@@ -14,7 +14,7 @@ const useStyles = createStyles((theme) => ({
     position: "relative",
   },
   bg: {
-    backgroundImage: `url(https://images.unsplash.com/photo-1575223970966-76ae61ee7838?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)`,
+    backgroundImage: `url(https://cdn.theculturetrip.com/wp-content/uploads/2016/08/dr-_bhau_daji_laad_museum_facade-1024x701.jpg)`,
     minHeight: rem(650),
     /* Create the parallax scrolling effect */
     backgroundAttachment: "fixed",
@@ -23,7 +23,7 @@ const useStyles = createStyles((theme) => ({
     backgroundSize: "cover",
 
     [theme.fn.smallerThan("sm")]: {
-      minHeight: rem(500),
+      minHeight: rem(900),
     },
   },
   container: {
