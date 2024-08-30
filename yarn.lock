@@ -3631,7 +3631,7 @@ next-videos@1.4.1:
   dependencies:
     file-loader "^4.2.0"
 
-next@*, next@13.2.4:
+next@*, next@^13.2.4:
   version "13.2.4"
   resolved "https://registry.npmjs.org/next/-/next-13.2.4.tgz"
   integrity sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==

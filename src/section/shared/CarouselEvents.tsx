@@ -19,63 +19,63 @@ import { useMediaQuery } from "@mantine/hooks";
 const data = [
   {
     image:
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Best forests to visit in North America",
-    category: "nature",
+      "https://www.bdlmuseum.org/assets/images/museum-katta-ban.jpg",
+    title: "Museum Katta",
+    category: "Cultural Folk Art",
     date: "ongoing",
     type: "online",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    " Museum Katta, a curated programme series in Marathi, showcases historical and contemporary social and cultural practices in folk art, cinema, literature, theatre, music, and visual arts. It aims to be a mediator between artists and audience in building sensitive contemporary responses through pioneering historical projects, experiments, and programmes as a form of documentation.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Hawaii beaches review: better than you think",
-    category: "beach",
-    date: "16 August",
-    type: "current",
+      "https://www.bdlmuseum.org/assets/images/workshop-panchtantra.jpg",
+    title: "Pattachitra Painting Workshop by Rupsona Chitrakar",
+    category: "Painting",
+    date: "2 May",
+    type: "ongoing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Pattachitra, a cloth-based scroll painting, is one of the oldest and most popular art forms of West Bengal and Odisha. Dive into its intricate details and captivating mythological narratives alongside renowned artist Ruksona Chitrakar.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Mountains at night: 12 best locations to enjoy the view",
-    category: "nature",
+      "https://www.bdlmuseum.org/assets/images/workshop-sholapith.jpg",
+    title: "Sholapith Flower Workshop by Gobindo Halder",
+    category: "Flower Workshop",
     date: "17 August – 31 October",
-    type: "online",
+    type: "offline",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      " Discover the magic of Sholapith, also known as Indian cork, a fascinating material with endless possibilities for crafting. Imagine a dried, milky-white sponge that can be molded into various shapes and forms.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Aurora in Norway: when to visit for best experience",
-    category: "nature",
-    date: "15 August – 31 October",
+      "https://www.bdlmuseum.org/assets/images/explore-movies-at-museum.jpg",
+    title: "Movies at the Museum",
+    category: "Movie",
+    date: "15 August – ",
     type: "current",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Bergman's semi-autobiographical film 'Fanny and Alexander' explores the vicissitudes of the lives of a pair of siblings upon the death of their father. Originally intended to be a television series, this Academy Award-winning film showcases Bergman's trademark melancholy and emotional intensity with immense joy and passion.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Best places to visit this winter",
-    category: "tourism",
+      "https://www.bdlmuseum.org/assets/images/explore-brilliant-thing.jpg",
+    title: "Every Brilliant Thing",
+    category: "Play",
     date: "15 August – 31 October",
     type: "current",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      " Every Brilliant Thing is an uplifting play about love, life, family, mental health and a list of all the wonderful things in the world! Presented as a live participative performance, this moving and intimate piece invites you to celebrate the joy found in everyday objects. A unique experience that encourages everyone present to meet and interact with each other and the performer and in doing so, take the story forward.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1582721478779-0ae163c05a60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    title: "Active volcanos reviews: travel at your own risk",
-    category: "nature",
-    date: "15 August – 31 October",
+      "https://www.bdlmuseum.org/assets/images/explore-book-launch.jpg",
+    title: "Book Launch & Talk:",
+    category: "Public Lectures and events",
+    date: "31 October",
     type: "current",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The publication not only explores T. V. Santhosh's recent exhibition of the same title, which took place earlier this year at the Dr. Bhau Daji Lad Museum but also provides a critical examination of his 15-year career. It includes essays by Premjish Achari, Nancy Adajania, Siddharth Sivakumar, Najrin Islam, Renuka Sawhney, Prajna Desai, Sathyanand Mohan, Anushka Rajendran, Maya Kóvskaya, Margherita Artoni, and Gitanjali Dang, along with several of Santhosh's own reflections on his work.",
   },
 ];
 

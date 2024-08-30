@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Museum Art</title>
+        <title>Dr. Bhau Daji Lad </title>
         <meta name="description" content="Museum art" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -24,9 +24,6 @@ export default function Home() {
         </AnimatedBox>
         <AnimatedBox>
           <CarouselEventsSection />
-        </AnimatedBox>
-        <AnimatedBox>
-          <VisitSection />
         </AnimatedBox>
         <DonationSection />
         <AnimatedBox>

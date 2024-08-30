@@ -72,7 +72,7 @@ export default function HeroSection() {
     <Box className={classes.wrapper}>
       <video className={classes.videoBg} autoPlay loop muted ref={videoRef}>
         <source
-          src={require("../../../public/static/video/walkthrough.mp4")}
+          //src={require("../../../public/static/video/walkthrough.mp4")}
           type="video/mp4"
         />
       </video>

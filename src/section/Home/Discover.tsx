@@ -47,7 +47,7 @@ export default function DiscoverSection() {
         <Grid sx={{ alignItems: "center" }}>
           <Grid.Col lg={6} p={0}>
             <Image
-              src="https://images.unsplash.com/photo-1610494940231-a07875fb25fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+             // src="https://images.unsplash.com/photo-1610494940231-a07875fb25fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt=""
               height={smallerThan ? 320 : 420}
               fit="cover"
@@ -56,26 +56,25 @@ export default function DiscoverSection() {
           </Grid.Col>
           <Grid.Col lg={6} p={0}>
             <Stack align="start" p={smallerThan ? "md" : "lg"}>
-              <Title size={24}>Lorem ipsum dolor sit amet</Title>
+              <Title size={24}></Title>
               <Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Facilisi nullam vehicula ipsum a arcu cursus vitae congue
-                mauris. Mauris in aliquam sem fringilla ut morbi tincidunt. Amet
-                venenatis urna cursus eget nunc scelerisque viverra mauris in.
-                Neque convallis a cras semper auctor neque.
+              Address
+              Dr. Bhau Daji Lad Museum,
+              Veermata Jijabai Bhosale Botanical Udyan and Zoo (Rani Baug),
+              91/A, Dr Babasaheb Ambedkar Road,
+              Byculla East Mumbai 400027 India
+              +91 22 2374 1234
+              +91 22 2371 4119
               </Text>
               <Text>
-                Duis convallis convallis tellus id interdum velit laoreet id
-                donec. Cras fermentum odio eu feugiat pretium. Tellus orci ac
-                auctor augue mauris augue neque gravida in.
+              Coordinates
+              18°58'46.4"N 72°50'05.3"E
               </Text>
               <Text>
-                Et magnis dis parturient montes nascetur. Non tellus orci ac
-                auctor. Gravida quis blandit turpis cursus in hac. Nec nam
-                aliquam sem et tortor consequat id porta nibh. Netus et
-                malesuada fames ac. Faucibus ornare suspendisse sed nisi lacus.
-                Arcu dictum varius duis at. Porttitor rhoncus dolor purus non.
+              How to get here
+              The Museum Plaza is located right behind the main Museum building.
+              Accessible via a separate entrance on the left once you enter the IN gate of the Veermata Jijabai Bhosale Botanical Udyan and Zoo (Rani Bagh).
+              It is a 2 mins walk from the Byculla (E) station.
               </Text>
               <Button {...buttonProps} size={smallerThan ? "sm" : "md"}>
                 Continue reading
@@ -94,19 +93,6 @@ export default function DiscoverSection() {
           { maxWidth: "sm", cols: 1, spacing: "sm" },
         ]}
       >
-        {Array.from({ length: 4 }).map((_, i) => (
-          <Paper key={`news-item-${i}`} className={classes.card} p="md">
-            <Text size="lg" weight={600} mb="md">
-              Lorem ipsum dolor sit amet
-            </Text>
-            <Text mb="md">
-              Nulla porttitor massa id neque. Ultrices vitae auctor eu augue ut
-              lectus. Lorem dolor sed viverra ipsum nunc aliquet. Vel risus
-              commodo viverra maecenas accumsan lacus vel facilisis volutpat.
-            </Text>
-            <Button {...buttonProps}>Read more</Button>
-          </Paper>
-        ))}
       </SimpleGrid>
       <Center mt={smallerThan ? 36 : "xl"}>
         <Button size="xl" variant="outline" fullWidth={smallerThan}>
