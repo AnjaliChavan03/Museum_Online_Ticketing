@@ -16,9 +16,6 @@ export default function Exhibitions() {
         <AnimatedBox>
           <EventsSection />
         </AnimatedBox>
-        {/* <AnimatedBox>
-          <CarouselEventsSection title="Online Exhibitions" />
-        </AnimatedBox> */}
         <AnimatedBox>
           <SupportSection />
         </AnimatedBox>

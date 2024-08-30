@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
   Box,
   Button,
@@ -22,7 +22,7 @@ const useStyles = createStyles((theme) => ({
       minHeight: rem(500),
     },
   },
-  videoBg: {
+  imageBg: {
     minWidth: "100%",
     height: rem(650),
     objectFit: "cover",
@@ -49,33 +49,16 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 export default function HeroSection() {
-  const videoRef = useRef<any>(null);
-  const [pause, setPause] = useState(false);
   const { classes } = useStyles();
   const smallerThan = useMediaQuery("(max-width: 600px)");
 
-  const pauseVideo = (): void => {
-    if (videoRef.current.paused) {
-      videoRef.current.play();
-      setPause(false);
-    } else {
-      videoRef.current.pause();
-      setPause(true);
-    }
-  };
-
-  useEffect(() => {
-    videoRef.current.play();
-  }, []);
-
   return (
     <Box className={classes.wrapper}>
-      <video className={classes.videoBg} autoPlay loop muted ref={videoRef}>
-        <source
-          //src={require("../../../public/static/video/walkthrough.mp4")}
-          type="video/mp4"
-        />
-      </video>
+      <img
+        className={classes.imageBg}
+        src="https://www.bdlmuseum.org/assets/bdlimages/pagesbannerimages/aboutus/about-banner-small.webp"
+        alt="Background"
+      />
       <Container className={classes.content}>
         <Stack align="center" justify="end" pb="xl" sx={{ height: "100%" }}>
           <Paper p={smallerThan ? "md" : "lg"} shadow="md">
@@ -88,30 +71,22 @@ export default function HeroSection() {
               Welcome to Dr. Bhau Daji Lad Museum
             </Text>
             <Text mb="md" size={smallerThan ? "md" : "lg"} align="center">
-                Dr. Bhau Daji Lad Museum is the oldest museum in Mumbai. Situated in the vicinity of Byculla Zoo, Byculla East, it was originally established in 1855 as a treasure house of the decorative and industrial arts, and was later renamed in honour of Bhau Daji Lad.
+              Dr. Bhau Daji Lad Museum is the oldest museum in Mumbai. Situated in the vicinity of Byculla Zoo, Byculla East, it was originally established in 1855 as a treasure house of the decorative and industrial arts, and was later renamed in honour of Bhau Daji Lad.
             </Text>
             <Flex
-              justify="space-between"
+              justify="center" 
               align="center"
               direction={{ base: "column", sm: "row" }}
               gap={{ base: "sm", sm: "lg" }}
             >
-              <Button size="lg" fullWidth={smallerThan}>
+              <Button size="lg" fullWidth={smallerThan} >
                 Learn More
               </Button>
               <Button
                 variant="white"
-                leftIcon={
-                  pause ? (
-                    <IconPlayerPlay size={18} />
-                  ) : (
-                    <IconPlayerPause size={18} />
-                  )
-                }
-                onClick={pauseVideo}
                 fullWidth={smallerThan}
               >
-                {pause ? "Play" : "Pause"} background video
+                
               </Button>
             </Flex>
           </Paper>

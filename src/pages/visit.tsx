@@ -8,7 +8,7 @@ import FaqsSection from "@/section/shared/Faqs";
 import SupportSection from "@/section/shared/Support";
 import AccessibilitySection from "@/section/Visit/Accessibility";
 import FacilitiesSection from "@/section/Visit/Facilities";
-import CarouselEventsSection from "@/section/shared/CarouselEvents";
+
 
 export default function Visit() {
   return (

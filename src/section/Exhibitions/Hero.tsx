@@ -84,7 +84,7 @@ export default function HeroSection() {
             Film Screening: When the time comes
           </Title>
           <Text className={classes.description} size="xl" mt="xl">
-            Saturday, April 15, 2023
+            Saturday, September 8, 2024
           </Text>
           <Button mt="xl" size="lg" variant="filled">
             RSVP Now

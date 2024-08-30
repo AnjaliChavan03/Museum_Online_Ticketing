@@ -220,20 +220,6 @@ export default function AppFooter({ data }: FooterLinksProps) {
               </Tooltip>
             </Flex>
           </Stack>
-          <Stack spacing="sm" mt={smallerThan ? "md" : 0}>
-            <Text size={smallerThan ? "md" : "lg"}>
-              Enter your email address to receive our newsletter
-            </Text>
-            <Flex gap={smallerThan ? "sm" : "xs"}>
-              <TextInput
-                size="md"
-                sx={{ flexGrow: 1 }}
-                aria-label="Enter email address"
-                placeholder="Enter email address"
-              />
-              <Button size="md">Signup</Button>
-            </Flex>
-          </Stack>
         </Flex>
       </Container>
       <Divider />
@@ -265,7 +251,6 @@ export default function AppFooter({ data }: FooterLinksProps) {
                   Opening Times
                 </Text>
               </Flex>
-              <Text>From January 1</Text>
               <Text>Monday - Friday : 10.00–17.00</Text>
             </Stack>
           </Stack>
@@ -291,7 +276,7 @@ export default function AppFooter({ data }: FooterLinksProps) {
               Terms of Use
             </Anchor>
           </Flex>
-          <Text>&copy;{new Date().getFullYear()}&nbsp;Museum & Art</Text>
+          <Text>&copy;{new Date().getFullYear()}&nbsp;Dr. Bhau Daji Lad Museum</Text>
           <Flex justify="center" align="center" gap={4}>
             <Text>Site created by:&nbsp;</Text>
             <Anchor
@@ -302,7 +287,7 @@ export default function AppFooter({ data }: FooterLinksProps) {
               weight={500}
               color="black"
             >
-              Kelvin
+              CodeOfDuty
             </Anchor>
           </Flex>
         </Flex>

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import CarouselEventsSection from "@/section/shared/CarouselEvents";
 import InfoSection from "@/section/Home/Info";
-import VisitSection from "@/section/Home/Visit";
 import HeroSection from "@/section/Home/Hero";
 import DonationSection from "@/section/shared/Donation";
 import DiscoverSection from "@/section/Home/Discover";

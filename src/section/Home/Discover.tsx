@@ -41,7 +41,7 @@ export default function DiscoverSection() {
         <Title size={48} mb="md">
           Discover
         </Title>
-        <Text size="lg">Get Latest Updates and News</Text>
+        
       </Box>
       <Paper className={classes.card} p={smallerThan ? 8 : 6}>
         <Grid sx={{ alignItems: "center" }}>
@@ -94,11 +94,7 @@ export default function DiscoverSection() {
         ]}
       >
       </SimpleGrid>
-      <Center mt={smallerThan ? 36 : "xl"}>
-        <Button size="xl" variant="outline" fullWidth={smallerThan}>
-          Discover more content
-        </Button>
-      </Center>
+    
     </Container>
   );
 }

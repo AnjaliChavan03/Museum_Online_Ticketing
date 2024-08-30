@@ -56,7 +56,7 @@ export default function InfoSection() {
                   <Text size="lg" weight={500}>
                     Opening Times
                   </Text>
-                  {/* <Text>From January 1</Text> */}
+                  
                   <Text>Monday - Friday : 10.00–17.00</Text>
                 </Stack>
               </Flex>
