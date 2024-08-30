@@ -35,33 +35,19 @@ export default function InfoSection() {
               with the world.
             </Title>
             <Text mb="md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+            Your support is more than just a contribution; it’s a vital lifeline that helps the Museum share its collection with the world. Every donation, membership, and sponsorship plays a crucial role in preserving the rich tapestry of human history, art, and culture that we safeguard within our walls.
+
+            Imagine a world where ancient artifacts, masterful artworks, and historical documents remain hidden, accessible only to a fortunate few. Your support shatters those barriers, making it possible for anyone, anywhere, to explore and learn from our vast collection. Whether it's through in-person visits, virtual exhibitions, or educational programs, your generosity ensures that the treasures of the past are accessible to future generations.
             </Text>
             <List mb="md">
               <Item>
-                Semper auctor neque vitae tempus quam pellentesque nec. Ut
-                tellus elementum sagittis vitae et.
+              Moreover, your contributions enable us to innovate and expand our reach. With your help, we can invest in cutting-edge technology, enhance our digital platforms, and develop new ways to engage and inspire a global audience. From interactive online tours to virtual reality experiences, your support helps us bring history to life in dynamic and meaningful ways.
               </Item>
+             
               <Item>
-                Mauris commodo quis imperdiet massa tincidunt nunc pulvinar
-                sapien.{" "}
+              you for being a champion of culture, knowledge, and inspiration. Together, we can make a difference, one exhibit, one artifact, and one story at a time
               </Item>
-              <Item>
-                Ut etiam sit amet nisl purus in. Cursus mattis molestie a
-                iaculis at erat pellentesque.
-              </Item>
-              <Item>
-                Penatibus et magnis dis parturient montes nascetur ridiculus.
-              </Item>
-              <Item>
-                Integer quis auctor elit sed. Egestas dui id ornare arcu odio
-                ut.
-              </Item>
+             
             </List>
             <Text>
               Read our supporter case studies to discover just a few of the
