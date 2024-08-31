@@ -13,7 +13,7 @@ export default function Collections() {
   return (
     <>
       <Head>
-        <title>Museum Art - Collections</title>
+        <title>Museum - Collections</title>
       </Head>
       <Wrapper>
         <HeroSection />

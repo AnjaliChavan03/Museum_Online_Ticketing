@@ -5,7 +5,6 @@ import FooterData from "@/data/footer.json";
 import TopBar from "@/components/TopBar";
 import { Box, rem, useMantineTheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import SearchModal from "@/components/SearchModal";
 import { motion } from "framer-motion";
 
 interface IProps {
@@ -37,7 +36,7 @@ export default function Wrapper({ children }: IProps) {
       </Box>
       <Box sx={{ marginTop: rem(104) }}>{children}</Box>
       <AppFooter data={FooterData.data} />
-      <SearchModal opened={opened} close={close} />
+      
     </motion.div>
   );
 }
